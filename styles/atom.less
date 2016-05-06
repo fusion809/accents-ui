@@ -1,33 +1,34 @@
 @import "ui-variables";
 
 * {
-    box-sizing: border-box;
+    box-sizing:                   border-box;
 }
 
 atom-workspace {
-    background-color: @app-background-color;
+    background-color:             @app-background-color;
 }
 
 .scrollbars-visible-always {
 
     // general
     /deep/::-webkit-scrollbar {
-        width: 12px; height: 12px;
+        width:                    12px;
+        height:                   12px;
     }
     /deep/::-webkit-scrollbar-track {
-        background-color: @scrollbar-background-color;
+        background-color:         @scrollbar-background-color;
     }
     /deep/::-webkit-scrollbar-corner {
-        background: transparent;
+        background:               transparent;
     }
     /deep/::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        border: 3px solid transparent;
-        background-color: @scrollbar-color;
-        background-clip: content-box;
+        border-radius:            10px;
+        border:                   3px solid transparent;
+        background-color:         @scrollbar-color;
+        background-clip:          content-box;
         &:hover {
-            background-color: lighten(@scrollbar-color, 3%);
-            background-clip: content-box;
+            background-color:     lighten(@scrollbar-color, 3%);
+            background-clip:      content-box;
         }
     }
 
@@ -35,17 +36,18 @@ atom-workspace {
     atom-panel-container.left,
     atom-panel-container.right {
         /deep/::-webkit-scrollbar {
-            width: 13px; height: 13px;
+            width:                13px;
+            height:               13px;
         }
         /deep/::-webkit-scrollbar-track {
-            background-color: @tree-view-background-color;
+            background-color:     @tree-view-background-color;
         }
         /deep/::-webkit-scrollbar-corner {
-            background: @tree-view-background-color;
+            background:           @tree-view-background-color;
         }
         /deep/::-webkit-scrollbar-thumb {
-            background-color: lighten(@app-background-color, 2%);
-            border: 4px solid transparent;
+            background-color:     lighten(@app-background-color, 2%);
+            border:               4px solid transparent;
             &:hover {
                 background-color: lighten(@app-background-color, 4%);
             }

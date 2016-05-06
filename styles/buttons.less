@@ -2,37 +2,38 @@
 @import "ui-mixins";
 
 .btn-background (@color, @hover-color, @selected-color, @text-color) {
-    color: @text-color;
-    background: @color;
-    transition: background 0.2s, color 0.2s;
+    color:                   @text-color;
+    background:              @color;
+    transition:              background 0.2s, color 0.2s;
+
     &:focus {
-        outline: 0;
-        color: @text-color;
-        background: @hover-color;
+        outline:             0;
+        color:               @text-color;
+        background:          @hover-color;
     }
     &:hover {
-        color: @text-color-highlight;
-        background: @hover-color;
+        color:               @text-color-highlight;
+        background:          @hover-color;
     }
     &:active:focus,
     &:active {
-        outline: 0;
-        color: darken(@text-color-highlight, 10%);
-        background: darken(@hover-color, 10%);
+        outline:             0;
+        color:               darken(@text-color-highlight, 10%);
+        background:          darken(@hover-color, 10%);
     }
     &.selected {
-        color: @text-color-highlight;
-        background: @selected-color;
+        color:               @text-color-highlight;
+        background:          @selected-color;
     }
     &.selected:hover {
-        background: lighten(@selected-color, 3%);
+        background:          lighten(@selected-color, 3%);
     }
 }
 
 .btn-variant (@color) {
-    @bg: darken(@color, 10%);
-    @hover: @color;
-    @selected: @color;
+    @bg:                     darken(@color, 10%);
+    @hover:                  @color;
+    @selected:               @color;
     .btn-background(@bg, @hover, @selected, @text-color-highlight);
 }
 
@@ -57,14 +58,14 @@
 
 .select-container {
     .btn.icon {
-        height: auto;
-        border-radius: 4px;
-        border: 1px solid #1f1f1f;
+        height:              auto;
+        border-radius:       4px;
+        border:              1px solid #1f1f1f;
     }
 }
 
 .form-control {
-    transition: background 0.3s;
+    transition:              background 0.3s;
 }
 
 .caret {
