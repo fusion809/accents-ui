@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "description": "A sleak dark UI theme, that is best complemented by the Dark Bint syntax theme",
   "license": "MIT",
-  "repository": "https://github.com/fusion809/accents-ui",
+  "repository": "https://github.com/fusion809/fusion-ui",
   "engines": {
     "atom": ">0.40.0"
   },
