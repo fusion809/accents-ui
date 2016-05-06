@@ -1,11 +1,11 @@
 {
-  "name": "accents-ui",
+  "name": "fusion-ui",
   "main": "lib/accents-ui",
   "theme": "ui",
-  "version": "1.2.0",
+  "version": "0.1.0",
   "description": "A subtle dark UI theme with colour accents.",
   "license": "MIT",
-  "repository": "https://github.com/kieranju/accents-ui",
+  "repository": "https://github.com/fusion809/accents-ui",
   "engines": {
     "atom": ">0.40.0"
   },
