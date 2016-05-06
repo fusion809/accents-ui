@@ -4,6 +4,7 @@
     padding:              0;
     font-size:            @font-size;
     background:           @tree-view-background-color;
+    vertical-align:       middle;
 
     .entry:before {
         background:       transparent;
@@ -18,10 +19,11 @@
     }
 
     .project-root > .header.list-item {
-        position:         relative;
-        line-height:      @tab-height - 2*@tab-indicator-size;
+        line-height:      @tree-view-tab-height - 2*@tab-indicator-size;
         height:           @tree-view-tab-height;
-        border:           @tree-view-tab-indicator-size solid #119;
+        text-align:       left;
+        vertical-align:   middle;
+        border:           @tree-view-tab-indicator-size solid @tree-view-tab-border-color;
         background:       @tree-view-tab-background-color;
 
         &::before {
@@ -61,4 +63,8 @@
     .tree-view-resize-handle {
         width:            10px;
     }
+}
+
+span::name .icon .icon-repo {
+  vertical-align: middle;
 }
