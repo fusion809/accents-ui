@@ -1,0 +1,97 @@
+@import "ui-accent";
+@import "ui-fontsize";
+
+// Accents
+
+@accent-color-subtle:              darken(desaturate(@accent-color, 20%), 20%);
+@accent-color-bg:                  darken(desaturate(@accent-color, 10%), 10%);
+
+// Colours
+
+@text-color:                       #aaa;
+@text-color-subtle:                #6b6b6b;
+@text-color-highlight:             #fff;
+@text-color-selected:              @text-color-highlight;
+
+@text-color-info:                  #5293d8;
+@text-color-success:               #2BDA77;
+@text-color-warning:               #fd8440;
+@text-color-error:                 #c92525;
+
+@text-color-ignored:               @text-color-subtle;
+@text-color-added:                 @text-color-success;
+@text-color-renamed:               @text-color-info;
+@text-color-modified:              @text-color-warning;
+@text-color-removed:               @text-color-error;
+
+@background-color-info:            #4b82b2;
+@background-color-success:         @text-color-success;
+@background-color-warning:         @text-color-warning;
+@background-color-error:           @text-color-error;
+@background-color-highlight:       rgba(55,210,152,100);
+@background-color-selected:        rgba(255,50,54,100);
+
+@app-background-color:             rgba(10,10,10,50);
+@app-accent-color:                 lighten(@app-background-color, 5%);
+
+@base-background-color:            #111;
+@base-border-color:                transparent;
+@base-accent-color:                lighten(@base-background-color, 5%);
+
+@input-background-color:           @app-background-color;
+@input-border-color:               darken(@input-background-color, 2%);
+@input-accent-color:               rgba(255,255,255,0.05);
+
+@inset-panel-background-color:     @app-background-color;
+@inset-panel-border-color:         @input-border-color;
+
+@panel-heading-background-color:   @base-background-color;
+@panel-heading-border-color:       @input-border-color;
+
+@tree-view-background-color:       rgba(7,5,10,50);
+@tree-view-tab-background-color:   rgba(10,10,10,20);
+@tree-view-tab-border-color:       rgba(10,10,255,100);
+@tree-view-tab-height:             40px;
+@tree-view-tab-indicator-size:     5px;
+
+@tool-panel-background-color:      @app-background-color;
+@tool-panel-border-color:          @input-border-color;
+
+@button-background-color:          @input-background-color;
+@button-background-color-hover:    lighten(@button-background-color, 1%);
+@button-background-color-selected: @accent-color-bg;
+@button-border-color:              @input-border-color;
+
+@tab-bar-background-color:         @app-background-color;
+@tab-background-color:             @base-background-color;
+@tab-background-color-active:      lighten(@tab-background-color, 4%);
+@tab-height:                       30px;
+@tab-indicator-bottom-size:        5px;
+@tab-indicator-side-size:          0px;
+@tab-indicator-size:               5px;
+@tab-side-border-color:            rgba(60,60,180,100);
+
+@scrollbar-background-color:       transparent;
+@scrollbar-color:                  lighten(@base-background-color, 6%);
+
+@ui-site-color-1:                  @background-color-success; // green
+@ui-site-color-2:                  @background-color-info; // blue
+@ui-site-color-3:                  @background-color-warning; // orange
+@ui-site-color-4:                  #ae48e2; // purple
+@ui-site-color-5:                  #f7c85b; // yellow
+
+// Sizes
+@input-font-size:                  14px;
+@dropdown-font-size:               14px;
+
+@disclosure-arrow-size:            @font-size;
+
+@component-padding:                10px;
+@component-icon-padding:           5px;
+@component-icon-size:              16px;
+@component-line-height:            (@font-size * 2) + 2;
+@component-border-radius:          2px;
+
+// Other
+
+@font-family:                      'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
