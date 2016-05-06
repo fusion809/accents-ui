@@ -19,11 +19,13 @@
     }
 
     .project-root > .header.list-item {
-        line-height:      @tree-view-tab-height - 2*@tab-indicator-size;
+        line-height:      @tree-view-tab-height - @tab-indicator-size;
         height:           @tree-view-tab-height;
         text-align:       left;
         vertical-align:   middle;
-        border:           @tree-view-tab-indicator-size solid @tree-view-tab-border-color;
+        font-weight:      bold;
+        font-size:        14px;
+        border-bottom:    @tree-view-tab-indicator-size solid @tree-view-tab-border-color;
         background:       @tree-view-tab-background-color;
 
         &::before {
