@@ -14,7 +14,6 @@
     }
     .file.selected .name,
     .list-nested-item.selected > .header {
-        color:            @text-color-highlight !important;
         font-weight:      500 !important;
     }
 
@@ -70,6 +69,18 @@
 li.directory.entry span.name {
   color:                  rgba(255,255,255,100);
   vertical-align:         middle;
+}
+
+li.status-modified.list-item.selected span.name {
+  color:                  rgba(100,255,100,50);
+}
+
+li.status-modified.list-item span.name {
+  color:                  rgb(253,132,64);
+}
+
+li.directory.entry.status-modified div.header.list-item span.name {
+  color:                  rgb(253, 132, 64);
 }
 
 li.directory.entry.status-ignored span.name {
