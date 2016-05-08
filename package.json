@@ -10,9 +10,7 @@
     "atom": ">0.40.0"
   },
   "keywords": [
-    "accent",
     "dark",
-    "ui",
-    "configurable"
+    "ui"
   ]
 }
