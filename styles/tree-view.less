@@ -66,39 +66,21 @@
     }
 }
 
+.list-tree li.list-nested-item.status-modified > .list-item
+
 li.directory.entry span.name {
   color:                  rgba(255,255,255,100);
   vertical-align:         middle;
 }
 
-li.status-modified.list-item span.name {
+.list-tree > li.status-modified > .header > .name {
   color:                  rgb(253,132,64);
 }
 
-li.status-modified.list-item.selected span.name {
-  color:                  rgba(100,255,100,50);
-}
-
-li.directory.entry.status-modified div.header.list-item span.name {
-  color:                  rgb(253, 132, 64);
-}
-
-li.directory.entry.status-modified ol div.header.list-item span.name {
-  color:                  rgb(255,255,255);
-}
-
-li.directory.entry.status-modified ol li.directory.entry.status-modified div.header.list-item span.name {
+.list-tree > li.status-modified > .name {
   color:                  rgb(253,132,64);
 }
 
-li.directory.entry div.header.list-item span.name {
-  color:                  rgba(255,255,255,100);
-}
-
-li.directory.entry {
-  color:                  rgba(255,255,255,100);
-}
-
-li.directory.entry.status-ignored span.name {
-  color:                  rgb(107,107,107);
+.list-tree > li.status-modified.selected > .name {
+  color:                rgba(100,255,100,50);
 }
