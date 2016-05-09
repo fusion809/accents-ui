@@ -66,11 +66,14 @@
     }
 }
 
-.list-tree li.list-nested-item.status-modified > .list-item
+//.list-tree > li.list-nested-item.status-modified > .list-item
 
-li.directory.entry span.name {
+.list-tree > li > .header > .name {
   color:                  rgba(255,255,255,100);
-  vertical-align:         middle;
+}
+
+.list-tree > li > .name {
+  color:                  rgba(255,255,255,100);
 }
 
 .list-tree > li.status-modified > .header > .name {
@@ -82,5 +85,5 @@ li.directory.entry span.name {
 }
 
 .list-tree > li.status-modified.selected > .name {
-  color:                rgba(100,255,100,50);
+  color:                  rgba(100,255,100,50);
 }
