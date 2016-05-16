@@ -8,3 +8,10 @@ The **Fusion UI Theme** is a fork of the accents-ui theme that has been given a 
 <img src="https://raw.githubusercontent.com/fusion809/fusion-ui/master/screenshots/screenshot-material-monokai-less.png">
   <caption>**Screenshot showing the fusion-ui theme being used with the Material Monokai theme**</caption>
 </img>
+
+## Installation
+Merely open up a terminal and run:
+
+```bash
+$ apm install fusion-ui
+```
