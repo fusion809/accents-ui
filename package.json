@@ -2,7 +2,7 @@
   "name": "fusion-ui",
   "main": "lib/accents-ui",
   "theme": "ui",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "description": "A sleak dark UI theme, that is best complemented by the Dark Bint syntax theme",
   "license": "MIT",
   "repository": "https://github.com/fusion809/fusion-ui",
