@@ -1,4 +1,4 @@
-# Fusion UI Theme
+# Fusion UI Theme[![Build Status](https://travis-ci.org/fusion809/fusion-ui.svg?branch=master)](https://travis-ci.org/fusion809/fusion-ui)
 <img src="https://raw.githubusercontent.com/fusion809/fusion-ui/master/screenshots/screenshot-dark-bint.png">
   <caption>**Screenshot showing the Fusion UI Theme with the Dark Bint Syntax Theme**</caption>
 </img>
