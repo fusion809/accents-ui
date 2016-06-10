@@ -14,7 +14,7 @@
     "dark",
     "ui"
   ],
-  "devDependencies": [
-    "coffee-script"
-  ]
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  }
 }
