@@ -1,6 +1,6 @@
 {
   "name": "fusion-ui",
-  "main": "lib/accents-ui",
+  "main": "lib/fusion-ui",
   "readme": "./README.md",
   "theme": "ui",
   "version": "0.10.7",
@@ -13,5 +13,8 @@
   "keywords": [
     "dark",
     "ui"
+  ],
+  "devDependencies": [
+    "coffee-script"
   ]
 }
