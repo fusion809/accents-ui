@@ -1,12 +1,12 @@
 {
-  "name":           "fusion-ui",
-  "main":           "lib/fusion-ui",
+  "name": "fusion-ui",
+  "main": "lib/fusion-ui",
   "readmeFilename": "README.md",
-  "theme":          "ui",
-  "version":        "0.10.8",
-  "description":    "A sleak dark UI theme, that is best complemented by the Dark Bint syntax theme",
-  "license":        "MIT",
-  "repository":     "https://github.com/fusion809/fusion-ui",
+  "theme": "ui",
+  "version": "0.11.0",
+  "description": "A sleak dark UI theme, that is best complemented by the Dark Bint syntax theme",
+  "license": "MIT",
+  "repository": "https://github.com/fusion809/fusion-ui",
   "engines": {
     "atom": ">0.40.0"
   },
